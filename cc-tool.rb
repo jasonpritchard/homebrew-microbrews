@@ -1,6 +1,6 @@
 class CcTool < Formula
   homepage "http://sourceforge.net/projects/cctool/"
-  url "http://iweb.dl.sourceforge.net/project/cctool/cc-tool-0.26-src.tgz"
+  url "http://downloads.sourceforge.net/project/cctool/cc-tool-0.26-src.tgz"
   sha1 "f313e55f019ea5338438633f5b5e689b699343e1"
 
   depends_on 'boost'
