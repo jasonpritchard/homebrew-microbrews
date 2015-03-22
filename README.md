@@ -41,3 +41,11 @@ To install it, just tap and install:
 
     brew install sigrok-firmware-fx2lafw
 
+Here's how I installed all of the sigrok tools.
+
+    brew install --with-libserialport libsigrokdecode
+    brew install --with-libserialport sigrok-cli
+    brew install pulseview
+    brew install sigrok-firmware-fx2lafw
+
+
