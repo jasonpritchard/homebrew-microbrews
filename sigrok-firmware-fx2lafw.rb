@@ -12,7 +12,7 @@ class SigrokFirmwareFx2lafw < Formula
   end
 
   depends_on 'pkg-config' => :build
-  depends_on "libsigrok"
+  depends_on "libsigrokdecode"
 
   def install
     system "./autogen.sh" if build.head?
