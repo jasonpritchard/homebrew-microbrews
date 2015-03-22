@@ -10,7 +10,8 @@ class SigrokFirmwareFx2lafw < Formula
     depends_on "autoconf" => :build
     depends_on "automake" => :build
   end
-
+  
+  depends_on 'sdcc'
   depends_on 'pkg-config' => :build
   depends_on "libsigrokdecode"
 
