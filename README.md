@@ -10,6 +10,7 @@ To get started with any of these, first tap:
 1. [serproxy](#serproxy)
 2. [cc-tool](#cc-tool)
 3. [sigrok-firmware-fx2lafw](#sigrok-firmware-fx2lafw)
+4. [vsprog](#vsprog)
 
 ---
 
@@ -48,4 +49,13 @@ Here's how I installed all of the sigrok tools.
     brew install pulseview
     brew install sigrok-firmware-fx2lafw
 
+---
+
+##vsprog
+
+Versaloon programmer is a generic platform for programming various chipsets. See more [here](http://www.versaloon.com)
+
+To install:
+
+    brew install vsprog
 
