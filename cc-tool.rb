@@ -3,7 +3,7 @@ class CcTool < Formula
   url "http://downloads.sourceforge.net/project/cctool/cc-tool-0.26-src.tgz"
   sha256 "bb07019bf007123824c624d5d940bc0ac24184ff3b5266b04b60d64f07d40060"
 
-  depends_on 'boost'
+  depends_on 'boost@1.60'
   depends_on 'libusb'  
   depends_on 'pkg-config' => :build
 
